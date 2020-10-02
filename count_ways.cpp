@@ -65,7 +65,7 @@ int countPaths(int maze[][C])
 
 	// If the final cell is blocked, output 0, otherwise 
 	// the answer 
-	return (maze[R-1][C-1] > 0); 
+	return return (maze[R-1][C-1] > 0)? maze[R-1][C-1] : 0; 
 } 
 
 // Driver code 
